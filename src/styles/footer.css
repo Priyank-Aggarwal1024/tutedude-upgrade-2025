@@ -1,0 +1,119 @@
+section.alac-pack-section-footer {
+    padding: 64px 24px;
+    padding-bottom: 24px;
+}
+
+.alac-pack-footer {
+    border-radius: 21px;
+    background: #350B35;
+    width: 100%;
+    padding: 48px 20px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 34px;
+    /* justify-content: space-between; */
+    /* grid-template-rows: auto; */
+}
+
+.alac-pack-footer-sec2 .alac-pack-footer-sec-links {
+    display: flex;
+    align-items: center;
+    gap: 7.911px;
+}
+
+.alac-pack-footer>div {
+    /* min-width: 150px; */
+    margin-right: auto;
+}
+
+.alac-pack-section-footer {
+    padding: 64px 32px;
+}
+
+.alac-pack-footer-sec-heading {
+    color: var(--Color-2, #FFF);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.alac-pack-footer-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.alac-pack-footer-email,
+.alac-pack-footer-phone {
+    color: var(--Color-2, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+.alac-pack-footer-email {
+    margin-bottom: 16px;
+}
+
+.alac-pack-footer-sec1 .alac-pack-footer-sec-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.alac-pack-footer-address {
+    color: var(--Color-2, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.alac-pack-footer-sec1 a {
+    color: var(--Color-2, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+@media (max-width: 780px) {
+    section.alac-pack-section-footer {
+        padding: 64px 24px;
+    }
+}
+
+@media (max-width: 580px) {
+    section.alac-pack-section-footer {
+        padding: 32px 16px;
+    }
+
+    .alac-pack-footer {
+        padding: 48px 15px;
+    }
+
+    .alac-pack-footer-sec-links {
+        opacity: .8;
+    }
+}
+
+@media (max-width: 480px) {
+    section.alac-pack-section-footer {
+        padding: 32px 8px;
+    }
+
+    .alac-pack-footer {
+        padding: 48px 10px;
+    }
+}

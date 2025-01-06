@@ -1,0 +1,253 @@
+.alac-pack-backoffer.alac-pack-section {
+    height: 100%;
+    /* padding: 56px 64px; */
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin: 0 29px;
+    border-radius: 21px;
+    background: var(--Eminence-950, #450D45);
+}
+
+.alac-pack-back-offer-heading {
+    line-height: 1.2;
+}
+
+.alac-pack-backoffer-bottom {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+}
+
+.alac-pack-text-white {
+    color: white;
+}
+
+.alac-pack-text-center {
+    text-align: center;
+}
+
+.alac-pack-backoffer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 550px;
+    justify-self: center;
+    margin-left: 50px;
+}
+
+.alac-pack-bol-card {
+    border-radius: 11.936px;
+    background: var(--Linear, linear-gradient(100deg, #B1B1B1 0.89%, #BDBDBD 9.58%, #EBE6E6 26.9%, #FFF 44.84%, #F0F0F0 64.21%, #CBCBCB 84.67%, #BEBEBE 102.86%));
+    max-width: 503px;
+    flex-shrink: 0;
+    display: flex;
+    padding: 24px 20px;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 65px;
+}
+
+.alac-pack-bol-card-heading {
+    color: var(--800080, rgba(128, 0, 128, 0.87));
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118.5%;
+}
+
+.alac-pack-bol-card-text {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 300px;
+}
+
+.alac-pack-bol-card-right {
+    color: var(--800080, rgba(128, 0, 128, 0.87));
+    font-family: Poppins;
+    font-size: 77.617px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118.5%;
+    opacity: 0.4;
+    margin-top: auto;
+    height: 100%;
+    position: relative;
+    bottom: -20px;
+}
+
+.alac-pack-bol-card-left {
+    display: flex;
+    width: 103.442px;
+    height: 103.442px;
+    padding: 20.96px 21.022px 20.961px 21.021px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 104.436px;
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.alac-pack-backoffer-right {
+    max-width: 517px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.alac-pack-bor-bottom {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.alac-pack-bor-top>img {
+    width: 100%;
+}
+
+.alac-pack-refund-right-para {
+    color: var(--Color-2, #FFF);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.alac-pack-refund-small-screen {
+    display: none;
+}
+
+@media (width < 980px) {
+    .alac-pack-backoffer.alac-pack-section {
+        margin: 0 auto;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .alac-pack-backoffer-bottom {
+        flex-direction: column-reverse;
+    }
+
+    .alac-pack-refund-small-screen {
+        display: flex;
+    }
+
+    .alac-pack-backoffer-right {
+        gap: 35px;
+    }
+}
+
+@media (width < 780px) {
+    .alac-pack-text-center {
+        text-align: left;
+    }
+
+    .alac-pack-f-48 {
+        font-size: 39px;
+    }
+
+    .alac-pack-bol-card-heading {
+        font-size: 25px;
+    }
+
+    .alac-pack-bol-card-text {
+        font-size: 18px;
+    }
+
+    .alac-pack-bol-card-right {
+        font-size: 60px;
+    }
+
+    .alac-pack-backoffer {
+        padding: 56px 32px;
+    }
+}
+
+@media (width < 580px) {
+    svg.alac-pack-va-mid {
+        width: 21.386px;
+        height: 12.221px;
+    }
+
+    .alac-pack-backoffer-left {
+        margin-left: 35px;
+    }
+
+    .alac-pack-refund-right-para {
+        font-size: 20px;
+    }
+
+    .alac-pack-f-48 {
+        font-size: 30px;
+    }
+
+    .alac-pack-bor-bottom {
+        gap: 7px;
+    }
+
+    .alac-pack-bol-card-left {
+        width: 70px;
+        height: 70px;
+    }
+
+    .alac-pack-bol-card-left>img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .alac-pack-bol-card {
+        padding: 16px 12px 16px 40px;
+    }
+
+    .alac-pack-bol-card-left {
+        left: -35px;
+    }
+
+    .alac-pack-backoffer-right {
+        padding: 10px;
+    }
+
+    .alac-pack-backoffer-right-inner {
+        padding: 20px;
+    }
+
+    .alac-pack-bol-card-text {
+        font-size: 16px;
+    }
+
+    .alac-pack-bol-card-heading {
+        font-size: 20px;
+    }
+
+    .alac-pack-bol-card-right {
+        font-size: 50px;
+        bottom: -10px;
+    }
+
+    .alac-pack-backoffer {
+        padding: 56px 16px;
+    }
+}
+
+@media (width < 480px) {
+    .alac-pack-refund-right-para {
+        font-size: 16px;
+    }
+}

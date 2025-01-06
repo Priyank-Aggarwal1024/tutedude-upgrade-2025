@@ -1,0 +1,213 @@
+.alac-pack-success-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 16px 11px;
+}
+
+.alac-pack-success-main {
+    padding: 10px 16px;
+}
+
+.alac-pack-success-main-top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.alac-pack-success-main-top-price {
+    color: #2F2F2F;
+    font-family: Poppins;
+    font-size: 34.4px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 10px;
+}
+
+.alac-pack-success-main-top-enrollment {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    /* 24px */
+    padding-top: 4px;
+}
+
+.alac-pack-success-main-top-enrolled {
+    color: #585858;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 4px;
+}
+
+.alac-pack-success-main-top-head {
+    color: #3F3F3F;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.alac-pack-success-main-middle {
+    border-radius: 12px;
+    background: #800080;
+    box-shadow: 0px 4px 51.2px 0px rgba(137, 127, 127, 0.29);
+    padding: 27px 13px 21px;
+    width: 100%;
+    margin-top: 23px;
+    position: relative;
+    overflow: hidden;
+}
+
+.alac-pack-success-main-middle-gift {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.alac-pack-success-main-middle-reward {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 24px */
+}
+
+.alac-pack-success-main-middle-head {
+    padding-top: 4px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133%;
+    /* 31.92px */
+    max-width: 186px;
+}
+
+.alac-pack-success-main-middle-limited {
+    display: inline-flex;
+    padding: 7px 14.354px 8px 14px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background: var(--Linear, linear-gradient(90deg, #F6A104 0%, #FFECB3 27%, #FFC107 55%, #E66800 100%));
+    padding-top: 8px;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133%;
+    /* 18.62px */
+}
+
+.alac-pack-success-main-middle-line {
+    margin: 31px 0 20px;
+    height: 1.111px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.31);
+}
+
+.alac-pack-success-main-middle-benefits {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.alac-pack-success-main-middle-benefits-div {
+    padding-top: 3px;
+}
+
+.alac-pack-success-main-middle-benefit {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.9;
+    padding-top: 4px;
+}
+
+.alac-pack-success-main-middle-claim {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 16px;
+    border-radius: 4.209px;
+    background: #FFF;
+    box-shadow: 0px 2.252px 5.01px 0px rgba(0, 0, 0, 0.25);
+    color: #800080;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.5%;
+    /* 17.29px */
+    margin-top: 15px;
+}
+
+.alac-pack-success-main-bottom {
+    display: flex;
+    padding: 14px 16px 14px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: #800080;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.5%;
+    /* 17.29px */
+    width: 100%;
+    cursor: pointer;
+}
+
+@media(width>768px) {
+    .alac-pack-success-main-inner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .alac-pack-success-main-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .alac-pack-success-main {
+        padding: 32px 64px;
+    }
+
+    .alac-pack-success-main-top,
+    .alac-pack-success-main-middle {
+        width: 100%;
+    }
+}
+
+@media(width>1024px) {
+    .alac-pack-success-main {
+        padding: 32px 96px;
+    }
+}
